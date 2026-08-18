@@ -263,7 +263,7 @@ section.tight.cta-section{padding-bottom:0;}
 .section-head .eyebrow{margin-bottom:12px;display:block;}
 
 /* ---------- INTRO / QUOTE ---------- */
-.intro-overlap{padding:0 0 24px;margin-top:-40px;position:relative;z-index:3;}
+.intro-overlap{padding:0 0 24px;margin-top:32px;position:relative;z-index:3;}
 
 .intro-card{
   background:var(--parchment-2);border-radius:24px;
