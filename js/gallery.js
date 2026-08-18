@@ -20,8 +20,8 @@ var photos = [
   {src:"img/amarelo26.jpeg", w:1600, h:1200, stage:'0-2', puppy:'amarelo'},
   {src:"img/cinzento26.jpeg", w:1200, h:1600, stage:'0-2', puppy:'cinzento'},
   {src:"img/verde2026.jpeg", w:1200, h:1600, stage:'0-2', puppy:'verde'},
-  {src:"img/vermelho26.jpeg", w:1600, h:1200, stage:'0-2', puppy:'azul'},
-  {src:"img/azul26.jpeg", w:1200, h:1600, stage:'0-2', puppy:'vermelho'},
+  {src:"img/vermelho26.jpeg", w:1600, h:1200, stage:'0-2', puppy:'vermelho'},
+  {src:"img/azul26.jpeg", w:1200, h:1600, stage:'0-2', puppy:'azul'},
   {src:"img/rosa26.jpeg", w:1600, h:1200, stage:'0-2', puppy:'rosa'}
 ];
 
