@@ -8,12 +8,24 @@ document.addEventListener('DOMContentLoaded', function(){
         navbarContainer.outerHTML = html;
         initializeHeader();
       })
-      .catch(function(err){ 
-        console.error('Erro ao carregar navbar:', err); 
+      .catch(function(err){
+        console.error('Erro ao carregar navbar:', err);
       });
   } else {
     // If no container, try to initialize immediately (for backward compatibility)
     initializeHeader();
+  }
+
+  var footerContainer = document.getElementById('footer-container');
+  if(footerContainer){
+    fetch('components/footer.html')
+      .then(function(response){ return response.text(); })
+      .then(function(html){
+        footerContainer.outerHTML = html;
+      })
+      .catch(function(err){
+        console.error('Erro ao carregar footer:', err);
+      });
   }
 });
 
